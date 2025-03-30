@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://portfolio-builder-production-8a98.up.railway.app';
 
 // Create Portfolio
 export const createPortfolio = async (userData, token) => {
