@@ -5,9 +5,9 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "dev": "nodemon server.js"
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "build": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "MIT",
